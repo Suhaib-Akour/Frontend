@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      form,
+      input {
+        margin: 7px;
+        padding: auto;
+      }
+    </style>
+    <form action="">
+      <label for="name">Name</label>
+      <input type="text" placeholder="name" maxlength="20" /><br />
+      <label for="email">Emile</label>
+      <input type="email" placeholder="email" maxlength="20" /><br />
+      <label for="Birth">Birth data</label>
+      <input type="date" placeholder="Birth date" maxlength="20" /><br />
+      <label for="register">register data</label>
+      <input type="date" placeholder="register data" maxlength="20" /><br />
+      <label for="age">Age</label>
+      <input type="number" placeholder="age" min="0" /><br />
+      <label for="pass">passowrd</label>
+      <input type="password" placeholder="password" /><br />
+      <label for="img">Uplod profial pictur:</label>
+      <input type="file" id="img" name="img" accept="image/*" /><br />
+
+      <div id="courCes">
+        <label for="courses">Coursec:</label><br />
+        <input type="checkbox" id="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="JasvaScript" />
+        <label for="Javascript">javaScript</label>
+        <input type="checkbox" id="Css" />
+        <label for="Css">Css</label>
+      </div>
+      <form>
+        <p>
+          <input type="radio" id="male" name="male" value="male" />
+          <label for="Male">Male</label>
+          <input type="radio" id="Female" name="male" value="Female" />
+          <label for="Female">Female</label><br />
+        </p>
+      </form>
+      <div id="Textarea">
+        <textarea
+          placeholder="Notic"
+          name="note"
+          id="notes"
+          cols="100"
+          rows="12"
+        ></textarea>
+      </div>
+      <label for="Course">Drobdown</label>
+      <select>
+        <option disabled selected>--select course--</option>
+
+        <optgroup label="Frontend">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javaScript">JasvaScript</option>
+        </optgroup>
+
+        <optgroup label="Backend">
+          <option value="Nodejs">Nodejs</option>
+          <option value=".net">.net</option>
+          <option value="C#">C#</option>
+        </optgroup>
+      </select>
+
+      <div id="link">
+        <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+      </div>
+      
+
+      <div id="button">
+        <button formtarget="_blank">Signup</button>
+        <button formtarget="_blank">Reset</button>
+      </div>
+    </form>
+    <script src="test.js"></script>
+  </body>
+</html>
