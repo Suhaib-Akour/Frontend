@@ -1,0 +1,44 @@
+.layput{
+    display: flex;
+    flex-direction: row;
+}
+
+.layput > .side-nav{
+    padding: 20px 20px 20px 20px;
+    background-color: aqua;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 30%;
+    max-width: 200px;
+}
+
+
+.side-nav>nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.side-nav>nav>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content{
+    padding: 20px 20px 20px 20px;
+    width: 60%;
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+.card-section>.card{
+    background-color: rgb(175, 50, 50);
+    width: 25%;
+}
