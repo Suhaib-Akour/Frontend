@@ -1,0 +1,56 @@
+:root{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin-top: 50px ;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headlayot{
+    
+    max-width: 900px;
+    
+}
+
+.row{
+   
+    background-color: rgb(72, 213, 218);
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+.col{
+    padding: 20px;
+    width: 150px;
+    border: 2px solid rgb(218, 13, 13);
+   
+
+}
+.col-1{
+
+flex-grow: 1;
+flex-basis: 150px;
+
+}
+
+.col-2{
+    flex-grow: 2;
+    flex-basis: 150px;
+}
+.col-3{
+    flex-grow: 3;
+    flex-basis: 150px;    
+}
+
+
+
+
