@@ -1,0 +1,55 @@
+:root{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+   margin: 0;
+   height: 100vh;
+  }
+  
+  .sideNav{
+    background-color: rgb(226, 141, 29);
+    height: 100vh;
+    font-size: 20px;
+    width: 30%;
+    overflow: auto;
+    overflow-x: hidden;
+    border: 3px solid black;
+    padding: 20px;
+  }
+  .sideNav nav{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+  }
+  .sideNav .item{
+    border: 0;
+    text-decoration: none;
+    color: rgb(100, 77, 55);
+  }
+  .layout {
+    display: flex;
+  }
+  .layout .content{
+   width: 60%;
+   padding: 12px;
+   height: 100vh;
+   background-color: rgb(226, 188, 139);
+  }
+
+  .card{
+    background-color: rgb(202, 149, 52);
+    height: 80px;
+    width: 25%;
+  
+     
+}
+.card-sec{
+    background-color: rgb(253, 165, 0);
+    display: flex;
+    gap: 12px;
+  flex-wrap: wrap;
+  padding: 20px;
+   
+}
