@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 6px;
+}
+
+li a {
+  display: block;
+  background-color: rgb(102, 133, 236);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cont {
+  display: flex;
+}
+
+.cont div {
+  flex: 1;
+  background-color: rgb(61, 124, 240);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin: 1px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center div {
+  margin-top: 0;
+  background-color: rgb(61, 124, 240);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container > div {
+  flex: 1;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(61, 124, 240);
+}
+
+.flexbox {
+  margin: 2px;
+  display: flex;
+  flex-basis: 100vw;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  flex-wrap: wrap;
+}
+.flexbox div {
+  border: 3px solid black;
+  padding: 50px;
+}
+
+.row {
+  display: flex;
+  margin: 3px;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row div{
+    margin: 2px;
+}
+
+.col-1,
+.col-3 {
+  display: flex;
+  flex-direction: column;
+}
+.col-1 .bash-1 {
+  flex-grow: 1;
+}
+.col-1 .bash-2 {
+  flex-grow: 4;
+}
+
+.flexbox .col-2 {
+  display: flex;
+}
+.col-2 div {
+  flex: 1;
+}
+
+.col-1,
+.col-3,.col-2{
+    flex: 1 0 3vw;
+    flex-wrap: wrap;
+}
