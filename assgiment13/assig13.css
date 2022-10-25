@@ -1,0 +1,21 @@
+* {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p:first-child:hover {
+  background-color: red;
+}
+
+p:last-child:hover {
+    background-color: rgb(14, 18, 226);
+  }
+  
+
+  @media (max-width:400px) {
+   div{
+        background-color: lightgreen;
+    }
+    
+  }
