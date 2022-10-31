@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px) {
+*{
+    font-size: 8px;
+}
+
+:root{
+    --h1S:16px;
+    --pS:6px;
+}
+
+* h1{
+    font-size: var(--h1S) !important;
+}
+* p{
+    font-size: var(--pS) !important;
+}
+.logo{
+    padding: 0;
+}
+picture img{
+    width: 400px;
+}
+.card .fa-brands,
+.cardS .fa-brands {
+    font-size: 30px;
+}
+.scoil-icon .fa-brands{
+    font-size: 14px;
+}
+.main p{
+    top:42%;
+}
+nav{
+    flex-direction: column;
+}
+li{
+    display: block;
+}
+}
